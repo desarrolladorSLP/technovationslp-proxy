@@ -8,6 +8,6 @@ zuul:
     api:
       url: ${API_URL:http://localhost:9999}
     oauth:
-      url: ${API_URL:http://localhost:9999}
+      url: ${OAUTH_URL:http://localhost:9999}
     assets:
       url: ${MANAGEMENT_URL:http://localhost:4200}/assets
