@@ -9,5 +9,6 @@ zuul:
       url: ${API_URL:http://localhost:9999}
     oauth:
       url: ${OAUTH_URL:http://localhost:9999}
+      sensitiveHeaders: Cookie,Set-Cookie
     assets:
       url: ${MANAGEMENT_URL:http://localhost:4200}/assets
